@@ -1,0 +1,28 @@
+{
+    "name": "team-064-backend/customer",
+    "description": "",
+    "require-dev": {
+      "phpunit/phpunit": "^9.1",
+      "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "firebase/php-jwt": "^5.2",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "scripts": {
+      "test": "phpunit",
+      "php-cs-fixer": "php-cs-fixer fix ./"
+    },
+    "autoload": {
+      "psr-4": {
+        "Customer\\": "src",
+        "Lib\\": "lib"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "team-064-backend/customer\\": "tests"
+      }
+    }
+  }
