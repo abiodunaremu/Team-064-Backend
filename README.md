@@ -10,11 +10,9 @@ Once this repo has been setup on Codacy by the TTL, replace the above badge with
 
 This is a simple php starter repo template for setting up your project. The setup contains
 
-- Composer: For adding third party dependencies
-
-- phpunit: For runnung tests
-
-- php-cs-fixer: For formatting code to match php coding standard
+-  Composer: For adding third party dependencies
+-  phpunit: For runnung tests
+-  php-cs-fixer: For formatting code to match php coding standard
 
 ## Why
 
@@ -22,7 +20,6 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
-
 
 ## Setup
 
@@ -32,11 +29,11 @@ Run `composer install` and `composer dump-autoload` to get started.
 
 All tests should be written in the test folder.
 
-#### Hints
+### Hints
 
-- Test: `composer run test`
-- Install dependencies: `composer install <dep name>`
-- Lint: `composer run php-cs-fixer`
+-  Test: `composer run test`
+-  Install dependencies: `composer install <dep name>`
+-  Lint: `composer run php-cs-fixer`
 
 ## Authors
 
@@ -44,7 +41,7 @@ List the team behind this project. Their names linked to their Github, LinkedIn,
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
-First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
+First, you can send a mail to [buildforsdg email]: buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
 1.  area one (e.g this app is about human trafficking and you need feedback on your roadmap and feature list from the private sector / NGOs)
 2.  area two (e.g you want people to opt-in and try using your staging app at staging.project-name.com and report any bugs via a form)
 3.  area three (e.g here is the zoom link to our end-of sprint webinar, join and provide feedback as a stakeholder if you can)
